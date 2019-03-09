@@ -1,0 +1,32 @@
+{
+  "name": "bballapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heicj/bballAPI.git"
+  },
+  "author": "Charlie Heiner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heicj/bballAPI/issues"
+  },
+  "homepage": "https://github.com/heicj/bballAPI#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.17"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.15.1",
+    "mocha": "^6.0.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10"
+  }
+}
